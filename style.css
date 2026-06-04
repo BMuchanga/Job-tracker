@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#heading{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border:2px solid red;
+}
+
+#status{
+    border:2px solid red;
+}
+
+.subheading{
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.stages{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+.options{
+    display:inline-block;
+    text-align: center;
+    color:white;
+    background-color: pink;
+    border:2px solid orange;
+    padding: 10px;
+    width:30%;
+    height: 200px;
+}
+
+
