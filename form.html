@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="form.css">
+
 <form action="#" method="post">
     <label for="job-title">Job Title:</label>
     <input type="text" id="job-title" name="job-title" required>
@@ -9,9 +11,9 @@
     <input type="date" id="application-date" name="application-date" required>
 
     <label for="status">Status:</label>
-    <input type="checkbox"  name="status" value="on">Applied
-    <input type="checkbox"  name="status" value="on">Responded
-    <input type="checkbox"  name="status" value="on">Accepted
+    <input type="radio"  name="status" value="on">Applied
+    <input type="radio"  name="status" value="on">Responded
+    <input type="radio"  name="status" value="on">Accepted
     
     <button type="submit">Add Job</button>
 </form>
